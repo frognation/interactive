@@ -34,11 +34,7 @@ document.addEventListener("keydown", function (e) {
   }
 });
 
-document.addEventListener("keydown", function (e) {
-  if (e.keyCode == 32) {
-    document.getElementById("audio_t").play();
-  }
-});
+
 
 $(window).keydown(function (key_press_event) {
   var key = key_press_event.key;
