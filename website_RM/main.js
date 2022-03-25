@@ -103,7 +103,7 @@ $(window).keydown(function (key_press_event) {
   
     if (key == "j") {
       $("body").append('<div class="wrapper"><div class="letter">J</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/J.wav');
       audio_b.play();
       }
   
@@ -121,7 +121,7 @@ $(window).keydown(function (key_press_event) {
   
     if (key == "m") {
       $("body").append('<div class="wrapper"><div class="letter">M</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/M.wav');
       audio_b.play();
       }
   
