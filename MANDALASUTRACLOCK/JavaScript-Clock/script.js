@@ -1,3 +1,9 @@
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+
 setInterval(setClock, 1000)
 
 const hourHand = document.querySelector('[data-hour-hand]')
@@ -19,3 +25,5 @@ function setRotation(element, rotationRatio) {
 }
 
 setClock()
+
+
