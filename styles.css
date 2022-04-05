@@ -1,11 +1,18 @@
+@font-face {
+  font-family: Editorial;
+  src:url(font/EditorialNew-Thin.otf);
+}
 
 body {
   background-color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: Editorial;
 }
 
 h1 {
-  font-size: 5em;
-  color: #4CAF50;
+  font-family: Editorial;
+  font-size: 7em;
+  color: #00ff08;
   text-align: center;
 }
 
