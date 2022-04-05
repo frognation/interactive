@@ -48,101 +48,101 @@ $(window).keydown(function (key_press_event) {
 
   if (key == "a") {
     $("body").append('<div class="wrapper"><div class="letter">A</div><div class="cover"></div></div>');
-    var audio_b = new Audio('sounds/A-1.mp3');
+    var audio_b = new Audio('sounds/A.wav');
     audio_b.play();
   }
 
   if (key == "b") {
     $("body").append('<div class="wrapper"><div class="letter">B</div><div class="cover"></div></div>');
-    var audio_b = new Audio('sounds/B-1.mp3');
+    var audio_b = new Audio('sounds/B.wav');
     audio_b.play();
     }
 
     if (key == "c") {
       $("body").append('<div class="wrapper"><div class="letter">C</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/C.wav');
       audio_b.play();
       }
   
 
     if (key == "d") {
       $("body").append('<div class="wrapper"><div class="letter">D</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/d-1.mp3');
+      var audio_b = new Audio('sounds/D.wav');
       audio_b.play();
       }
   
     if (key == "e") {
       $("body").append('<div class="wrapper"><div class="letter">E</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/E.wav');
       audio_b.play();
       }
   
     if (key == "f") {
       $("body").append('<div class="wrapper"><div class="letter">F</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/F.wav');
       audio_b.play();
       }
   
     if (key == "g") {
       $("body").append('<div class="wrapper"><div class="letter">G</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/G.wav');
       audio_b.play();
       }
   
     if (key == "h") {
       $("body").append('<div class="wrapper"><div class="letter">H</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/H.wav');
       audio_b.play();
       }
   
     if (key == "i") {
       $("body").append('<div class="wrapper"><div class="letter">I</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/I.wav');
       audio_b.play();
       }
   
     if (key == "j") {
       $("body").append('<div class="wrapper"><div class="letter">J</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/J.wav');
       audio_b.play();
       }
   
     if (key == "k") {
       $("body").append('<div class="wrapper"><div class="letter">K</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/K-1.mp3');
+      var audio_b = new Audio('sounds/K.wav');
       audio_b.play();
       }
   
     if (key == "l") {
       $("body").append('<div class="wrapper"><div class="letter">L</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/L-1.mp3');
+      var audio_b = new Audio('sounds/L.wav');
       audio_b.play();
       }
   
     if (key == "m") {
       $("body").append('<div class="wrapper"><div class="letter">M</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/M.wav');
       audio_b.play();
       }
   
 
     if (key == "n") {
       $("body").append('<div class="wrapper"><div class="letter">N</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/N.wav');
       audio_b.play();
       }
   
 
     if (key == "o") {
       $("body").append('<div class="wrapper"><div class="letter">O</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/O.wav');
       audio_b.play();
       }
   
 
     if (key == "p") {
       $("body").append('<div class="wrapper"><div class="letter">P</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/P.wav');
       audio_b.play();
       }
   
@@ -156,57 +156,57 @@ $(window).keydown(function (key_press_event) {
 
     if (key == "r") {
       $("body").append('<div class="wrapper"><div class="letter">R</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/R.wav');
       audio_b.play();
       }
   
 
     if (key == "s") {
       $("body").append('<div class="wrapper"><div class="letter">S</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/S.wav');
       audio_b.play();
       }
   
 
     if (key == "t") {
       $("body").append('<div class="wrapper"><div class="letter">T</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/T-1.mp3');
+      var audio_b = new Audio('sounds/T.wav');
       audio_b.play();
       }
   
     if (key == "u") {
       $("body").append('<div class="wrapper"><div class="letter">U</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/U.wav');
       audio_b.play();
       }
   
     if (key == "v") {
       $("body").append('<div class="wrapper"><div class="letter">V</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/V.wav');
       audio_b.play();
       }
   
     if (key == "w") {
       $("body").append('<div class="wrapper"><div class="letter">W</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/W.wav');
       audio_b.play();
       }
   
     if (key == "x") {
       $("body").append('<div class="wrapper"><div class="letter">X</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/X.wav');
       audio_b.play();
       }
   
     if (key == "y") {
       $("body").append('<div class="wrapper"><div class="letter">Y</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/Y.wav');
       audio_b.play();
       }
   
     if (key == "z") {
       $("body").append('<div class="wrapper"><div class="letter">Z</div><div class="cover"></div></div>');
-      var audio_b = new Audio('sounds/C-1.mp3');
+      var audio_b = new Audio('sounds/Z.wav');
       audio_b.play();
       }
 

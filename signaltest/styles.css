@@ -21,7 +21,7 @@ body{
   font-size: 72pt;
   text-align: center;
   background-color: rgb(0, 0, 0);
-  color: white;
+  color: rgb(98, 255, 0);
 }
 
 img {
@@ -50,7 +50,7 @@ img {
   left: 1px;
   opacity: 1;
   animation-name: slide;
-  animation-duration: 4s;
+  animation-duration: 2.6s;
   transform-origin: right;
   -webkit-animation-fill-mode: both;
 }
