@@ -5,13 +5,13 @@
 
 body {
   background-color: rgb(0, 0, 0);
-  font-size: 2em;
+  font-size: 4em;
   font-family: Editorial;
 }
 
 h1 {
   font-family: Editorial;
-  font-size: 7em;
+  font-size: 4em;
   color: #00ff08;
   text-align: center;
 }
@@ -31,12 +31,16 @@ h1 {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  height: 200px;
+  width: 800px;
+  font-family: Editorial;
+  font-size: 5em;
+
 }
 
 .button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
+  background-color: black; 
+  color: white; 
 }
 
 .button1:hover {
@@ -45,9 +49,8 @@ h1 {
 }
 
 .button2 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;
+  background-color: black;
+  color: white;
 }
 
 .button2:hover {
@@ -56,9 +59,8 @@ h1 {
 }
 
 .button3 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #f44336;
+  background-color: black;
+  color: white;
 }
 
 .button3:hover {
@@ -67,9 +69,8 @@ h1 {
 }
 
 .button4 {
-  background-color: white;
-  color: black;
-  border: 2px solid #e7e7e7;
+  background-color: black;
+  color: white;
 }
 
 
