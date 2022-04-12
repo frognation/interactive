@@ -41,36 +41,50 @@ h1 {
 .button1 {
   background-color: black; 
   color: white; 
+  border: solid;
+  border-color: white;
 }
 
 .button1:hover {
   background-color: #4CAF50;
   color: white;
+  border: solid;
+  border-color: white;
 }
 
 .button2 {
   background-color: black;
   color: white;
+  border: solid;
+  border-color: white;
 }
 
 .button2:hover {
   background-color: #008CBA;
   color: white;
+  border: solid;
+  border-color: white;
 }
 
 .button3 {
   background-color: black;
   color: white;
+  border: solid;
+  border-color: white;
 }
 
 .button3:hover {
   background-color: #f44336;
   color: white;
+  border: solid;
+  border-color: white;
 }
 
 .button4 {
   background-color: black;
   color: white;
+  border: solid;
+  border-color: white;
 }
 
 
