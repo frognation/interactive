@@ -54,13 +54,50 @@ function checkAlarm() {
       // i.e. you shouldn't run the alarm again until it's the next minute.
       reset_clock();
     } 
+
     
     // here's a second alarm set for 11:45pm.
-    else if ((hours == 23) && (minutes == 45)) {
-      console.log("it's 11:45 pm!");
+    else if ((hours == 13) && (minutes == 53) && (seconds == 55)) {
+      alert("Hi, did you have lunch? Don't forget to feed my cat.");
       reset_clock();
     }
     
+//    
+else if ((seconds == 0)) {
+  alert("Hi, did you have lunch? Don't forget to feed my cat.");
+  reset_clock();
+}
+else if ((seconds == 10)) {
+  alert("Hey don't fall asleep");
+  reset_clock();
+}
+else if ((seconds == 20)) {
+  alert("The Connecticut Tercentenary half dollar is a commemorative fifty-cent piece struck by the United States Bureau of the Mint in 1935. The commemorative coin was designed by Henry Kreis and depicts the Charter Oak, where according to legend Connecticut's charter was hidden to save it from confiscation. An eagle appears on the coin's reverse side. The Connecticut Tercentenary Commission wanted a half dollar issued, with proceeds from its sale to further its projects. A bill passed through Congress without dissent and became law on June 21, 1935, when President Franklin D. Roosevelt signed it, providing for 25,000 half dollars. Kreis's design was a Public Works Administration project and technically in violation of the new law, which said the federal government was not to pay for its design. Nevertheless, the design was approved and the commission, setting a price of $1 per coin, exhausted the entire issue. Kreis's design has generally been praised by numismatic writers.");
+  reset_clock();
+}
+else if ((seconds == 30)) {
+  alert("Hi, did you have dinner? Don't forget to feed my cat.");
+  reset_clock();
+}
+  else if ((seconds == 40)) {
+    alert("go home");
+    reset_clock();
+  }
+  else if ((seconds == 50)) {
+    alert("don't do that");
+    reset_clock();
+  }
+  
+
+
+//
+  
+
+
+
+
+
+
     else {
       console.log("no alarm");
       // alarm = setInterval(checkAlarm, 1000);
