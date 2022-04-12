@@ -1,3 +1,4 @@
+
 function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
@@ -42,6 +43,8 @@ function checkAlarm() {
     // we're going to log those to the console just so we can see
     console.log(hours + ":" + minutes + ":" + seconds);
   
+
+    
     // check if it's time for an alarm.
     // this alarm is set for 10:15pm.
     if ((hours == 13) && (minutes == 10) && (seconds == 55)) {

@@ -19,6 +19,19 @@ body {
   background-color: black;
 }
 
+.button1 {
+  background-color: black; 
+  color: white; 
+  border: solid;
+  border-color: white;
+}
+
+.button1:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: solid;
+  border-color: white;
+}
 
 .time {
   padding: 0.5em;
@@ -46,7 +59,6 @@ body {
   position: fixed;
   bottom: 0;
   right:0;
-  border: 1px solid rgb(255, 255, 255);
 }
 
 .popup {

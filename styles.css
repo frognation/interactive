@@ -46,8 +46,8 @@ h1 {
 }
 
 .button1:hover {
-  background-color: #4CAF50;
-  color: white;
+  background-color: white;
+  color: rgb(0, 0, 0);
   border: solid;
   border-color: white;
 }
