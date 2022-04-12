@@ -44,11 +44,11 @@ function checkAlarm() {
   
     // check if it's time for an alarm.
     // this alarm is set for 10:15pm.
-    if ((hours == 13) && (minutes == 06) && (seconds == 06)) {
+    if ((hours == 13) && (minutes == 10) && (seconds == 55)) {
       
       // here's where you run the alarm.
       // in this example it's just a pop-up
-      alert("it's 10:15!");
+      alert("Hi, did you have lunch? Don't forget to feed my cat.");
       
       // after you run the alarm, you have to reset the clock; 
       // i.e. you shouldn't run the alarm again until it's the next minute.
