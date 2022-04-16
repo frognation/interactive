@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Editorial;
+  src:url(font/EditorialNew-Thin.otf);
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: Editorial; 
+  font-size: 24pt;
+}
+
+
+
+body {
+  font-family: Editorial; 
+  min-height: 100vh;
+  overflow: hidden;
+  color: white;
+  background-color: black;
+}
+
+h2 {
+  font-family: Editorial; 
+  font-weight: 100;
+  text-align: left;
+  padding-left: 25vh;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+}
+
+
+
+
+.clockbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  color: white
+}
+
+.clock {
+  width: 85vh;
+  height: 85vh;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+  
+}
+
+
+
+.clock .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+  font-size: 1.0rem;
+  white-space: nowrap;
+}
+
+.clock .number0 { --rotation: 0deg; }
+.number0::after{
+  content: "1" ;
+  position: relative;
+  top: 150px;
+}
+
+.clock .number1 { --rotation: 15deg; }
+.clock .number2 { --rotation: 30deg; }
+.clock .number3 { --rotation: 45deg; }
+.clock .number4 { --rotation: 60deg; }
+.clock .number5 { --rotation: 75deg; }
+.clock .number6 { --rotation: 90deg; }
+.number6::after{
+  content: "6";
+  position: relative;
+  top: 150px;
+}
+.clock .number7 { --rotation: 105deg; }
+.clock .number8 { --rotation: 120deg; }
+.clock .number9 { --rotation: 135deg; }
+.clock .number10 { --rotation: 150deg; }
+.clock .number11 { --rotation: 165deg; }
+.clock .number12 { --rotation: 180deg; }
+.clock .number13 { --rotation: 195deg; }
+.clock .number14 { --rotation: 210deg; }
+.clock .number15 { --rotation: 225deg; }
+.clock .number16 { --rotation: 240deg; }
+.clock .number17 { --rotation: 255deg; }
+.clock .number18 { --rotation: 270deg; }
+.clock .number19 { --rotation: 285deg; }
+.clock .number20 { --rotation: 300deg; }
+.clock .number21 { --rotation: 315deg; }
+.clock .number22 { --rotation: 330deg; }
+.clock .number23 { --rotation: 345deg; }
+
+
+
+.clock .hand {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform-origin: bottom;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.clock::after {
+  content: '';
+  position: absolute;
+  z-index: 11;
+  top: 50%;
+  left: 50%;
+}
+
+.clock .hand.second {
+  width: 2px;
+  height: 45%;
+  background-color: red;
+}
+
+.clock .hand.minute {
+  width: 4px;
+  height: 40%;
+  background-color: rgb(9, 1, 255);
+}
+
+.clock .hand.hour {
+  width: 7px;
+  height: 35%;
+  background-color: white;
+
+

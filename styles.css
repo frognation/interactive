@@ -5,13 +5,13 @@
 
 body {
   background-color: rgb(0, 0, 0);
-  font-size: 4em;
+  font-size: 2em;
   font-family: Editorial;
 }
 
 h1 {
   font-family: Editorial;
-  font-size: 4em;
+  font-size: 1em;
   color: #00ff08;
   text-align: center;
 }
@@ -31,60 +31,46 @@ h1 {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  height: 200px;
+  height: 150px;
   width: 800px;
   font-family: Editorial;
-  font-size: 5em;
+  font-size: 4em;
 
 }
 
 .button1 {
   background-color: black; 
-  color: white; 
-  border: solid;
-  border-color: white;
+  color: rgb(94, 255, 0); 
 }
 
 .button1:hover {
-  background-color: white;
+  background-color: rgb(94, 255, 0);
   color: rgb(0, 0, 0);
-  border: solid;
-  border-color: white;
 }
 
 .button2 {
   background-color: black;
-  color: white;
-  border: solid;
-  border-color: white;
+  color: rgb(94, 255, 0);
 }
 
 .button2:hover {
-  background-color: #008CBA;
+  background-color: rgb(94, 255, 0);
   color: white;
-  border: solid;
-  border-color: white;
 }
 
 .button3 {
   background-color: black;
-  color: white;
-  border: solid;
-  border-color: white;
+  color: rgb(94, 255, 0);
 }
 
 .button3:hover {
-  background-color: #f44336;
+  background-color: rgb(94, 255, 0);
   color: white;
-  border: solid;
-  border-color: white;
 }
 
 .button4 {
   background-color: black;
-  color: white;
-  border: solid;
-  border-color: white;
+  color: rgb(94, 255, 0);
 }
 
 
