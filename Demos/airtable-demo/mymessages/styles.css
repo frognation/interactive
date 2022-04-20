@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Editorial;
+  src:url(font/EditorialNew-Thin.otf);
+}
+
+* {
+  font-family:  Editorial;
+  font-size: 22px;
+}
+
+.info {
+  position: fixed;
+  bottom: 2px;
+  left: 2px;
+}
+
+.info * {
+  display: inline;
+}
