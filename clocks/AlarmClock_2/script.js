@@ -174,7 +174,7 @@ document.querySelector("#close").addEventListener("click", close);
 // if it matches, play the sound from the row.
 
 function setup_clock() {
-  var clock = setInterval(check_time, 1000);
+  var clock = setInterval(check_time, 60000);
 }
 
 function check_time() {
