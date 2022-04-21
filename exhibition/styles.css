@@ -1,0 +1,36 @@
+* {
+  background-color: blanchedalmond;
+}
+
+#container {
+  flex-direction: row; /*default value*/
+  margin: -9px;
+  padding: 0;
+  height: 100vh;
+}
+
+.box {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  float:left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box2 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  float:left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}

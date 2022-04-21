@@ -1,0 +1,268 @@
+
+
+@font-face {
+  font-family: Editorial;
+  src:url(font/EditorialNew-Thin.otf);
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: Editorial; 
+  font-size: 24pt;
+}
+
+
+
+body {
+  font-family: Editorial; 
+  min-height: 100vh;
+  overflow: hidden;
+  color: white;
+  background-color: black;
+}
+
+h2 {
+  font-family: Editorial; 
+  font-weight: 100;
+  text-align: left;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+}
+
+.h2rotate {
+  writing-mode: vertical-rl;
+  color: red;
+}
+/** madal popup **/
+
+.modal {
+  align-items: center;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  width: 80%; /* Full width */
+  height: 80%; /* Full height */
+  background-color: rgba(0, 0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.323); /* Black w/ opacity */
+  overflow: hidden;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  align-items: center;
+  text-align: center;
+  background-color: #000000c7;
+  margin: 30% auto;
+  padding: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.395);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+/* The Close Button */
+.close {
+  font-family: Editorial; 
+  color: rgba(170, 170, 170, 0.49);
+  float: right;
+  font-size: 60px;
+
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/** madal popup ends **/
+
+
+.button1 {
+  background-color: black; 
+  color: white; 
+  border: solid;
+  border-color: white;
+}
+
+.button1:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: solid;
+  border-color: white;
+}
+
+
+input {
+  background-color: black;
+  color: white;
+  border: solid;
+  border-color: rgba(170, 170, 170, 0.49);
+}
+
+
+.rotate {
+  animation: rotation 60s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+
+
+.clockbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  overflow: hidden;
+  color: white
+  
+}
+
+.clock {
+  width: 24vh;
+  height: 85vh;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+  
+}
+
+.clock .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+  font-size: 1.0rem;
+  white-space: nowrap;
+  
+}
+
+.clock .number0 { --rotation: 0deg; }
+.clock .number1 { --rotation: 15deg; }
+.clock .number2 { --rotation: 30deg; }
+.clock .number3 { --rotation: 45deg; }
+.clock .number4 { --rotation: 60deg; }
+.clock .number5 { --rotation: 75deg; }
+.clock .number6 { --rotation: 90deg; }
+.clock .number7 { --rotation: 105deg; }
+.clock .number8 { --rotation: 120deg; }
+.clock .number9 { --rotation: 135deg; }
+.clock .number10 { --rotation: 150deg; }
+.clock .number11 { --rotation: 165deg; }
+.clock .number12 { --rotation: 180deg; }
+.clock .number13 { --rotation: 195deg; }
+.clock .number14 { --rotation: 210deg; }
+.clock .number15 { --rotation: 225deg; }
+.clock .number16 { --rotation: 240deg; }
+.clock .number17 { --rotation: 255deg; }
+.clock .number18 { --rotation: 270deg; }
+.clock .number19 { --rotation: 285deg; }
+.clock .number20 { --rotation: 300deg; }
+.clock .number21 { --rotation: 315deg; }
+.clock .number22 { --rotation: 330deg; }
+.clock .number23 { --rotation: 345deg; }
+
+
+.clock2 {
+  width: 25vh;
+  height: 75vh;
+  border-radius: 50%;
+  position: absolute;
+  color: white;  
+}
+
+
+.clock2 .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  transform: rotate(var(--rotation));
+  font-size: 1.0rem;
+  white-space: nowrap;
+  
+}
+
+.clock2 .number0 { --rotation: 0deg; }
+.clock2 .number1 { --rotation: 15deg; }
+.clock2 .number2 { --rotation: 30deg; }
+.clock2 .number3 { --rotation: 45deg; }
+.clock2 .number4 { --rotation: 60deg; }
+.clock2 .number5 { --rotation: 75deg; }
+.clock2 .number6 { --rotation: 90deg; }
+.clock2 .number7 { --rotation: 105deg; }
+.clock2 .number8 { --rotation: 120deg; }
+.clock2 .number9 { --rotation: 135deg; }
+.clock2 .number10 { --rotation: 150deg; }
+.clock2 .number11 { --rotation: 165deg; }
+.clock2 .number12 { --rotation: 180deg; }
+.clock2 .number13 { --rotation: 195deg; }
+.clock2 .number14 { --rotation: 210deg; }
+.clock2 .number15 { --rotation: 225deg; }
+.clock2 .number16 { --rotation: 240deg; }
+.clock2 .number17 { --rotation: 255deg; }
+.clock2 .number18 { --rotation: 270deg; }
+.clock2 .number19 { --rotation: 285deg; }
+.clock2 .number20 { --rotation: 300deg; }
+.clock2 .number21 { --rotation: 315deg; }
+.clock2 .number22 { --rotation: 330deg; }
+.clock2 .number23 { --rotation: 345deg; }
+
+
+
+
+
+.clock .hand {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  border-top-left-radius: 10px;
+  border-top11111-right-radius: 10px;
+  transform-origin: bottom;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.clock::after {
+  content: '';
+  position: absolute;
+  z-index: 11;
+  top: 50%;
+  left: 50%;
+}
+
+.clock .hand.second {
+  width: 1px;
+  height: 100%;
+  background-color: red;
+}
+
+.clock .hand.minute {
+  width: 1px;
+  height: 100%;
+  background-color: rgb(9, 1, 255);
+}
+
+.clock .hand.hour {
+  width: 1px;
+  height: 100%;
+  background-color: white;
+
+}
+
+
