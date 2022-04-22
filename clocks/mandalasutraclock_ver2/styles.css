@@ -5,10 +5,14 @@
   src:url(font/EditorialNew-Thin.otf);
 }
 
+
+
 *, *::after, *::before {
   box-sizing: border-box;
   font-family: Editorial; 
   font-size: 24pt;
+
+  
 }
 
 
@@ -19,6 +23,13 @@ body {
   overflow: hidden;
   color: white;
   background-color: black;
+
+  background: url(images/6666.gif);
+  background-position: center;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
 }
 
 h2 {

@@ -190,7 +190,7 @@ function check_time() {
 
     if (current_hours == hours && current_minutes == minutes) {
       console.log("Play alarm");
-      speak("Hi Rosa!");
+      speak("hey");
       reset_clock();
     }
   }
