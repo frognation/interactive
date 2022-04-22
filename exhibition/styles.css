@@ -1,5 +1,11 @@
 * {
+  font-family: 'Courier New', Courier, monospace;
   background-color: blanchedalmond;
+}
+
+body {
+  font-size: 72pt;
+  font-style: monospace;
 }
 
 #container {
@@ -10,6 +16,7 @@
 }
 
 .box {
+  position: relative;
   height: 30px;
   width: 30px;
   background-color: rgba(255, 255, 255, 0);
@@ -20,7 +27,18 @@
   float:left;
   margin-right: -1px;
   margin-bottom: -1px;
+  overflow: hidden;
 }
+.box img {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 .box2 {
   height: 30px;
@@ -33,4 +51,14 @@
   float:left;
   margin-right: -1px;
   margin-bottom: -1px;
+}
+
+.box2 img
+{
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
 }
