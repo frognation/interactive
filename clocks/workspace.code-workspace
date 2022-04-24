@@ -1,6 +1,8 @@
 {
-	"folders": [],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "clocks"
-	}
+	"folders": [
+		{
+			"path": "../../../../../../Dropbox (개인용)/YALE/2022 Spring/Interactive Design and the Internet_Software for People/interactive"
+		}
+	],
+	"settings": {}
 }
