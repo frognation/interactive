@@ -10,9 +10,11 @@ body {
 
 #container {
   flex-direction: row; /*default value*/
+  /*
   margin: -9px;
   padding: 0;
   height: 100vh;
+*/
 }
 
 .box {
