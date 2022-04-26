@@ -77,8 +77,8 @@ function check_time() {
 
     if (current_hours == hours && current_minutes == minutes) {
       var alarm = rows[i].fields.message;
-      console.log("Play alarm");
-      speak("message");
+      console.log("MESSAGE IS" + alarm);
+      speak(alarm);
       reset_clock();
     } else {
       console.log("no alarm");
@@ -151,25 +151,25 @@ function setRotation(element, rotationRatio) {
 setClock();
 setInterval(setClock, 1000);
 
-
 function addAlarm() {
-  base('alarmclock').create([
-    {
-      "fields": {
-        "message": $("#formMessage").val(),
-        "Time": $("#formDate").val(),
-        "Sender": $("#formSender").val()
+  base("alarmclock").create(
+    [
+      {
+        fields: {
+          message: $("#formMessage").val(),
+          Date: $("#formDate").val(),
+          Sender: $("#formSender").val(),
+        },
+      },
+    ],
+    function (err, records) {
+      if (err) {
+        console.error(err);
+        return;
       }
+      records.forEach(function (record) {
+        console.log(record.getId());
+      });
     }
-  ], function(err, records) {
-    if (err) {
-      console.error(err);
-      return;
-    }
-    records.forEach(function (record) {
-      console.log(record.getId());
-    });
-  });
-  
- 
+  );
 }
