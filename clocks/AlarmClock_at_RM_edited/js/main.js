@@ -73,9 +73,14 @@ function check_time() {
   for (i = 0; i < rows.length; i++) {
     var date = new Date(rows[i].fields.Date);
     var hours = date.getHours();
+    
+    // adjust time zone of times from airtable
+    var hours_adjusted = hours + 5;
+    
+    console.log("hours adjusted =" + hours_adjusted);
     var minutes = date.getMinutes();
 
-    if (current_hours == hours && current_minutes == minutes) {
+    if (current_hours == hours_adjusted && current_minutes == minutes) {
       var alarm = rows[i].fields.message;
       console.log("MESSAGE IS" + alarm);
       speak(alarm);

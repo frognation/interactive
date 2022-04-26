@@ -1,6 +1,6 @@
 * {
   font-family: "Courier New", Courier, monospace;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 body {
@@ -72,8 +72,8 @@ body {
 .box3 {
   height: 30px;
   width: 30px;
-  background-color: rgb(72, 255, 0);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -98,8 +98,8 @@ body {
 .box4 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -122,8 +122,8 @@ body {
 .box5 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -146,8 +146,8 @@ body {
 .box6 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -170,8 +170,8 @@ body {
 .box7 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -194,8 +194,8 @@ body {
 .box8 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -218,8 +218,8 @@ body {
 .box9 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -242,8 +242,8 @@ body {
 .box10 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -266,8 +266,8 @@ body {
 .box11 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -290,8 +290,8 @@ body {
 .box12 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -314,8 +314,8 @@ body {
 .box13 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -338,8 +338,8 @@ body {
 .box14 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -362,8 +362,8 @@ body {
 .box15 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -386,8 +386,8 @@ body {
 .box16 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -410,8 +410,8 @@ body {
 .box17 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -434,8 +434,8 @@ body {
 .box18 {
   height: 30px;
   width: 30px;
-  background-color: rgb(255, 173, 188);
-  color: #fff;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
