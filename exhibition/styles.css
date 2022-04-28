@@ -7,6 +7,61 @@ body {
   font-size: 72pt;
   font-style: monospace;
 }
+#container2 {
+  flex-direction: row; /*default value*/
+  position: fixed;
+  margin: 0px;
+  padding: 0;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.title {
+  position: absolute;
+
+  color: lime;
+  font-size: 12pt;
+  overflow: hidden;
+  transform: translate(1510px, 0px);
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+.date {
+  position: absolute;
+  color: lime;
+  font-size: 12pt;
+  overflow: hidden;
+  transform: translate(1340px, 0px);
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+.name {
+  position: absolute;
+  color: lime;
+  font-size: 12pt;
+  overflow: hidden;
+  transform: translate(1246px, 0px);
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+.QR {
+  position: absolute;
+  color: lime;
+  font-size: 12pt;
+  overflow: hidden;
+  transform: translate(900px, 0px);
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+
 
 #container {
   flex-direction: row; /*default value*/
