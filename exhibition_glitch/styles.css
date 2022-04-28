@@ -1,0 +1,455 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(0, 0, 0);
+}
+
+body {
+  font-size: 72pt;
+  font-style: monospace;
+}
+
+#container {
+  flex-direction: row; /*default value*/
+
+  margin: -9px;
+  padding: 0;
+  height: 100vh;
+}
+
+.box {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 104, 34);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.057);
+  border-width: 1px;
+
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  overflow: hidden;
+
+  /*
+  z-index: -1;
+  */
+}
+.box img {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Title dot */
+.box2 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+  color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box2 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* date time dot */
+.box3 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box3 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* name dot */
+
+/* AINSLEY */
+.box4 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box4 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* CLAIRE */
+.box5 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box5 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Daedalus  */
+.box6 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box6 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Darnell  */
+.box7 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box7 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Jisung  */
+.box8 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box8 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Julio  */
+.box9 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box9 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Junyan  */
+.box10 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box10 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Kayla  */
+.box11 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box11 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Lourdes  */
+.box12 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box12 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Merritt  */
+.box13 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box13 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Michael  */
+.box14 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box14 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Neeta  */
+.box15 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box15 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Siri  */
+.box16 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box16 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Tulsi  */
+.box17 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box17 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Yuseon  */
+.box18 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.box18 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
