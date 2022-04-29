@@ -3,7 +3,7 @@ function play() {
   audio.play();
 }
 
-// setInterval(play, 1000)
+setInterval(play, 1000)
 
 
 
@@ -160,14 +160,14 @@ function speak(text, opt_prop) {
   const prop = opt_prop || {};
 
   const speechMsg = new SpeechSynthesisUtterance();
-  speechMsg.rate = prop.rate || 0.5; // 속도: 0.1 ~ 10
-  speechMsg.pitch = prop.pitch || 1; // 음높이: 0 ~ 2
+  speechMsg.rate = prop.rate || 0.4; // 속도: 0.1 ~ 10
+  speechMsg.pitch = prop.pitch || 0.2; // 음높이: 0 ~ 2
   speechMsg.lang = prop.lang || "en-US";
   speechMsg.volume = prop.volume || 0.5;
   speechMsg.text = text;
 
   // SpeechSynthesisUtterance에 저장된 내용을 바탕으로 음성합성 실행
-  // window.speechSynthesis.speak(speechMsg);
+  window.speechSynthesis.speak(speechMsg);
   console.log(speechMsg);
 }
 
