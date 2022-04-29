@@ -75,12 +75,12 @@ function check_time() {
     var hours = date.getHours();
     
     // adjust time zone of times from airtable
-    var hours_adjusted = hours + 5;
+   // var hours_adjusted = hours + 5;
     
-    console.log("hours adjusted =" + hours_adjusted);
+    //console.log("hours adjusted =" + hours_adjusted);
     var minutes = date.getMinutes();
 
-    if (current_hours == hours_adjusted && current_minutes == minutes) {
+    if (current_hours == hours && minutes == minutes) {
       var alarm = rows[i].fields.message;
       console.log("MESSAGE IS" + alarm);
       speak(alarm);
@@ -112,7 +112,7 @@ function speak(text, opt_prop) {
     return;
   }
 
-  window.speechSynthesis.cancel(); // 현재 읽고있다면 초기화
+  // window.speechSynthesis.cancel(); // 현재 읽고있다면 초기화
 
   const prop = opt_prop || {};
 
