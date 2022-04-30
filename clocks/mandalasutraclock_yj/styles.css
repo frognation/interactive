@@ -277,3 +277,10 @@ input {
 }
 
 
+.center1 {
+  position:absolute;
+align-items: center;
+text-align: center;
+  bottom: 47%;
+  left: 40%;
+}
