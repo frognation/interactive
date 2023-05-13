@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Variable fonts simple demo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ 
+ <style type="text/css">
+@font-face {
+  font-family: "Subbookkeeper";
+  src: url("BanjiVF.woff2") format("woff2-variations"),
+       url("BanjiVF.woff") format("woff-variations"),
+       url("BanjiVF.ttf") format("truetype-variations");
+}
+
+body {
+  background: #ffffff00;
+}
+
+@font-face {
+  font-family: "Subbookkeeper";
+  src: url("BanjiVF.woff2") format("woff2"), url("BanjiVF.woff") format("woff");
+  font-weight: 100 900;
+  font-stretch: 1% 500%;
+}
+h1 {
+  font-size: 6vw;
+  font-family: "Subbookkeeper", BlinkMacSystemFont, sans-serif;
+  font-weight: 100;
+  font-stretch: 1500%;
+  color: #000000;
+  text-align: center;
+  transition: font-weight 250ms ease-out, font-stretch 250ms ease-out;
+  line-height: 100%;
+
+}
+h1 span {
+  font-size: 6vw;
+  font-weight: 100;
+  font-stretch: 1%;
+  transition: all 250ms ease-out;
+}
+h1:hover {
+  font-weight: 900;
+  font-stretch: 1%;
+}
+h1:hover span {
+  font-weight: 900;
+  font-stretch: 1500%;
+}
+
+
+h2 {
+  font-size: 6vw;
+  font-family: "Subbookkeeper", BlinkMacSystemFont, sans-serif;
+  font-weight: 100;
+  font-stretch: 1500%;
+  color: #000000;
+  text-align: center;
+  transition: font-weight 250ms ease-out, font-stretch 250ms ease-out;
+  line-height: 10%;
+
+}
+h2 span {
+  font-size: 6vw;
+  font-weight: 100;
+  font-stretch: 1%;
+  transition: all 250ms ease-out;
+}
+h2:hover {
+  font-weight: 900;
+  font-stretch: 1%;
+}
+h2:hover span {
+  font-weight: 900;
+  font-stretch: 1500%;
+}
+
+
+.my-variable-text {
+  font-family: "Subbookkeeper";
+  font-weight: 550;
+}
+
+
+.demo-text {
+  font-size: 6vw;
+  font-stretch: var(--text-width);
+  font-style: oblique var(--text-slant);
+  font-weight: var(--text-weight);
+  font-variation-settings: "wght" var(--text-weight), "wdth" var(--text-width), "slnt" var(--text-slant);
+  margin: 0;
+}
+
+.controls {
+  margin-top: 2rem;
+}
+
+.slider-container:not(:first-child) {
+  margin-top: 2rem;
+} 
+
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  
+}
+
+.slider-label {
+  font-size: 1rem;
+  font-style: normal;
+  font-variation-settings: "slnt" var(--text-slant);
+  font-weight: 650;
+}
+
+.output {
+  font-style: normal;
+  font-variation-settings: "slnt" var(--text-slant);
+  font-weight: 400;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 0.1rem;
+  border-radius: .25rem;
+  background: #000000;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: #ff3b6f;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 100%;
+  background: #ff3b6f;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:active {
+  cursor: -webkit-grabbing;
+}
+
+.slider::-moz-range-thumb:active {
+  cursor: -moz-grabbing;
+}
+
+.button {
+  background: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 1;
+  padding: .25rem .75rem;
+  transition: background ease-in .2s;
+}
+
+.button:hover,
+.button:focus {
+  background: #eaf0f3;
+}
+
+    </style>
+</head>
+
+
+<body>
+
+<h2>Is th<span>E</span>Re <span>a wOrD</span><br> </h2>
+<h2>w<span>ItH</span> 4 Cons<span>E</span>cuTive<br> </h2>
+<h2>do<span>U</span>B<span>L<span></span>e <span>lETters?</span><br><br><br><br><br><br></h2>
+
+<h2><span>subbookkeeper</span></h2>
+<h2><span>subbookKEeper</span></h2>
+<h2><span>subBookKeEper</span></h2>
+<h2><span>suBBooKKEEper</span></h2>
+<h2><span>suBBOOKKEEper</span><br><br><br><br><br><br></h2>
+
+<h2><span>I</span>S <br></h2>
+<h2>tHe oN<span>lY</span> worD in <br></h2>
+<h2>thE enGLish <span>LanguaGe <br></h2>
+<h2>wI</span>th 4 conSecUt<span>I</span>ve <br></h2>
+<h2>dOuBle l<span>E</span>tTeRs!<br></h2>
+<h2>:,)<br><br><br><br><br><br><br></h2>
+
+<h4><br></h4>
+
+<div>
+  <h2 class="demo-text">suBbookkEeper<br><br><br><br><br><br></h2>
+</div>
+
+<div class="controls">
+  <!-- Weight Controls -->
+  <div class="slider-container">
+    <input type="range" min="100" max="900" value="500" class="slider" id="text-weight" name="text-weight" data-index="0">
+    <div class="slider-controls">
+      <label for="text-weight" class="slider-label">
+        <button>Weight</button> <button><span class="output" data-index="0"></button></span>   
+      </label>
+
+    </div>
+  </div>
+  
+  <h4><br></h4>
+
+  <div>
+    <h1 class="demo-text">NiFfIEr</h1>
+    <h1 class="demo-text">acAnTHacEoUs</h1>
+    <h1 class="demo-text">BoyhoOD</h1>
+    <h1 class="demo-text">SHUssIteMaSTeR</h1>
+  </div>
+  
+  <div class="controls">
+    <!-- Weight Controls -->
+    <div class="slider-container">
+      <input type="range" min="100" max="900" value="500" class="slider" id="text-weight" name="text-weight" data-index="0">
+      <div class="slider-controls">
+        <label for="text-weight" class="slider-label">
+          <button>Weight</button> <button><span class="output" data-index="0"></button></span>   
+        </label>
+  
+      </div>
+    </div>
+
+    <h5><br></h5>
+
+ 
+    <h2><span>ABCDEFGHI</span></h2>
+    <h2><span>JKLMNOPQRST</span></h2>
+    <h2><span>UVWXYZ</span></h2>
+    <h2><span>abcdefghijklmnopqr</span></h2>
+    <h2><span>stuvwxyz0123456789</span></h2>
+    <h2><span>?!&@()[]-*.,:;“”‘’</span></h2>
+</h2>
+
+
+
+
+<script>
+const container = document.querySelector(".container");
+const sliders = document.querySelectorAll(".slider");
+const sliderValues = document.querySelectorAll(".output");
+const buttons = document.querySelectorAll(".button");
+
+// Display property values
+for (let i = 0; i < sliders.length; i++) {
+  sliderValues[i].innerHTML = sliders[i].value;
+}
+
+// Update text property and displayed property value for each slider
+sliders.forEach(slider => {
+    const sliderIndex = slider.getAttribute("data-index");
+    const output = document.querySelector(`.output[data-index="${sliderIndex}"]`);
+    slider.oninput = function() {
+      container.style.setProperty(`--${this.id}`, this.value);
+      output.innerHTML = this.value;
+    };
+  });
+
+// Reset text property and update display property value for each slider
+buttons.forEach(button => {
+  const buttonIndex = button.getAttribute("data-index");
+  const resetOutput = document.querySelector(
+    `.output[data-index="${buttonIndex}"]`
+  );
+  const resetSlider = document.querySelector(
+    `.slider[data-index="${buttonIndex}"]`
+  );
+  button.onclick = function() {
+    container.style.removeProperty(`--${resetSlider.id}`);
+    resetOutput.innerHTML = resetSlider.defaultValue;
+    resetSlider.value = resetSlider.defaultValue;
+    console.log(resetSlider.defaultValue);
+  };
+});
+
+</script>
+</body>
+</html>

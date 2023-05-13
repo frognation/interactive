@@ -1,0 +1,586 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/*Animations */
+
+@keyframes blink-effect { 50% { opacity: 0; } }
+
+@keyframes colorchange {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+@keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(1deg); }
+  50% { transform: translate(-2px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 2px) rotate(0deg); }
+  70% { transform: translate(3px, 2px) rotate(-1deg); }
+  80% { transform: translate(-2px, -2px) rotate(1deg); }
+  90% { transform: translate(2px, 2px) rotate(0deg); }
+  100% { transform: translate(2px, -2px) rotate(-1deg); }
+}
+
+
+
+
+body {
+  font-size: 72pt;
+  font-style: monospace;
+}
+
+#container {
+  flex-direction: row; /*default value*/
+  margin: 100px;
+  padding-right: 300px;
+  padding-left: 300px;
+  height: 100vh;
+  align-items: center;
+  /*
+  transform: matrix(1, -0.4, 0, 1, 0, 0);
+  */
+  
+}
+
+.box {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 2px;
+
+  float: left;
+
+  overflow: hidden;
+
+  /*
+  z-index: -1;
+  */
+}
+.box img {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Title dot */
+.box2 {
+  height: 30px;
+  width: 30px;
+/*   background-color: hotpink; */
+    color: #fff;
+  border: 2px dotted rgba(0, 128, 0, 0);
+  border-radius: 0%;
+  float: left;
+
+  background-image: url("images/12.gif");
+  background-size: 110%;
+
+  /*
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+  color: #ffffff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+  */
+}
+
+
+.box2 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* date time dot */
+.box3 {
+  height: 30px;
+  width: 30px;
+/*   background-color: hotpink; */
+    color: #fff;
+  border: 2px dotted rgba(0, 128, 0, 0);
+  border-radius: 0%;
+  float: left;
+
+  background-image: url("images/10.gif");
+  background-size: 110%;
+
+/*  animation: blink-effect 1s step-end infinite;
+  animation-name: blink-effect; 
+  animation-duration: 0.4s; 
+  animation-iteration-count:infinite; 
+animation-timing-function: ease-in-out; */
+}
+
+.box3 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* name dot */
+
+/* AINSLEY */
+.box4 {
+  height: 30px;
+  width: 30px;
+/*   background-color: hotpink; */
+    color: #fff;
+  border: 2px dotted rgba(0, 128, 0, 0);
+  border-radius: 0%;
+  float: left;
+
+  background-image: url("images/11.gif");
+  background-size: 100%;
+
+}
+
+.box4 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* CLAIRE */
+.box5 {
+  height: 30px;
+  width: 30px;
+/*   background-color: hotpink; */
+    color: #fff;
+  border: 2px dotted rgba(0, 128, 0, 0);
+  border-radius: 0%;
+  float: left;
+
+  background-image: url("images/14.png");
+  background-size: 110%;
+
+
+}
+
+.box5 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Daedalus  */
+.box6 {
+  height: 30px;
+  width: 30px;
+/*   background-color: hotpink; */
+    color: #fff;
+  border: 2px dotted rgba(0, 128, 0, 0);
+  border-radius: 0%;
+  float: left;
+
+  background-image: url("images/10.gif");
+  background-size: 110%;
+
+
+}
+
+.box6 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Darnell  */
+.box7 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 255, 255);
+    color: #fff;
+  border-style: dashed;
+  border-color: rgb(0, 0, 255);
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+
+    animation: blink-effect 1s step-end infinite;
+  animation-name: blink-effect; 
+  animation-duration: 0.7s; 
+  animation-iteration-count:infinite; 
+animation-timing-function: ease-in-out;
+}
+
+.box7 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Jisung  */
+.box8 {
+  height: 30px;
+  width: 30px;
+  background-color: violet;
+  color: #ffffff;
+  border-style: solid;
+  border-color: black;  
+border-width: 2px;
+  border-radius: 0%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+      animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+}
+
+.box8 :hover{
+  height: 30px;
+  width: 30px;
+  background-color: violet;
+  color: #ffffff;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 0%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+}
+
+.box8 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+/* Julio  */
+.box9 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(100, 200, 255);
+  color: #ffffff;
+  border-style: dotted;
+  border-color: red;
+  border-width: 2px;
+  border-radius: 66%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+}
+
+.box9 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Junyan  */
+.box10 {
+  height: 30px;
+  width: 30px;
+  background-color: orange;
+    color: #ffffff;
+  border-style: solid;
+  border-color: orange;
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+  
+    animation: shake 0.4s;
+  animation-iteration-count: infinite;  
+}
+
+.box10 :hover {
+  height: 30px;
+  width: 30px;
+  background-color: orange;
+    color: #fffff;
+  border-style: solid;
+  border-color: orange;
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+  
+}
+
+
+.box10 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Kayla  */
+.box11 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+}
+
+.box11 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Lourdes  */
+.box12 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(3, 236, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+  animation: blink-effect 1s step-end infinite;
+  animation-name: blink-effect; 
+  animation-duration: 0.2s; 
+  animation-iteration-count:infinite; 
+  animation-timing-function:step-end;
+}
+
+.box12 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Merritt  */
+.box13 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(4, 0, 255);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(245, 165, 9);
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+}
+
+.box13 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Michael  */
+.box14 {
+  height: 30px; 
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+  animation-name: colorchange;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.box14 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Neeta  */
+.box15 {
+  height: 30px;
+  width: 30px;
+/*   background-color: rgb(255, 196, 0); */
+  color: #fff;
+  border-style: solid;
+  border-color: cyan;
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+}
+
+.box15 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Siri  */
+.box16 {
+  height: 30px;
+  width: 30px;
+/*   background-color: hotpink; */
+    color: #fff;
+  border: 2px dotted rgba(0, 128, 0, 0);
+  border-radius: 0%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+  background-image: url("https://acegif.com/wp-content/uploads/firework-2.gif");
+  background-size: 120%;
+}
+
+.box16 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Tulsi  */
+.box17 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #fff;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+    filter: blur(8px);
+}
+
+.box17:hover {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 196, 0);
+    color: #ffffff;
+  border-style: solid;
+  border-color: pink;
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+    filter: blur(2px);
+}
+
+.box17 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Yuseon  */
+.box18 {
+  height: 30px;
+  width: 30px;
+  background-color: #2cff00;
+  color: #2cff00;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-radius: 50%;
+  float: left;
+  margin-right: -2px;
+  margin-bottom: -2px;
+}
+
+.box18 img {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
